@@ -1,0 +1,33 @@
+/* line 5, ../../sass/pages/homepage.scss */
+.homepage {
+  text-align: center;
+}
+/* line 10, ../../sass/pages/homepage.scss */
+.homepage header h1 {
+  font-size: 1.66667em;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  color: #1E303E;
+}
+/* line 17, ../../sass/pages/homepage.scss */
+.homepage .blog-posts-container,
+.homepage .code-container {
+  text-align: left;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+@media (max-width: 577px) {
+  /* line 27, ../../sass/pages/homepage.scss */
+  .homepage section {
+    width: 100%;
+    background: transparent;
+    padding: 0;
+  }
+}
+
+/* line 36, ../../sass/pages/homepage.scss */
+.intro-text {
+  text-align: center;
+}

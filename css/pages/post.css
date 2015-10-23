@@ -1,0 +1,66 @@
+/* line 5, ../../sass/pages/post.scss */
+.post {
+  max-width: 800px;
+}
+/* line 9, ../../sass/pages/post.scss */
+.post p, .post .highlight, .post pre, .post ul, .post ol {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 15, ../../sass/pages/post.scss */
+.post span.meta {
+  display: block;
+  text-align: center;
+}
+/* line 20, ../../sass/pages/post.scss */
+.post p {
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+/* line 24, ../../sass/pages/post.scss */
+.post ul, .post ol {
+  margin: 0 0 0 2em;
+  font-style: italic;
+  border-left-width: 0.05556em;
+  border-left-style: solid;
+  padding-left: 1.27778em;
+  border-left-color: #CCC;
+}
+/* line 29, ../../sass/pages/post.scss */
+.post ul li, .post ol li {
+  margin-bottom: 0.5em;
+}
+/* line 34, ../../sass/pages/post.scss */
+.post h4, .post h5 {
+  text-align: center;
+}
+/* line 38, ../../sass/pages/post.scss */
+.post h4 {
+  font-size: 1.66667em;
+  line-height: 1.6em;
+  margin-top: 0.24em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.24em;
+}
+@media (max-width: 577px) {
+  /* line 38, ../../sass/pages/post.scss */
+  .post h4 {
+    font-weight: 700;
+    font-size: 1.33333em;
+    line-height: 2em;
+    line-height: 1.66667em;
+  }
+}
+/* line 50, ../../sass/pages/post.scss */
+.post h5 {
+  font-size: 1.38889em;
+  line-height: 1.92em;
+  margin-top: 0.288em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.288em;
+}

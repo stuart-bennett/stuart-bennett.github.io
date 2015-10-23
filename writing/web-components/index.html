@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]>  <html> <![endif]-->
+<!--[if !IE]><!--> <html>             <!--<![endif]-->
+<head>
+  <title>Web Components</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <script type="text/javascript" src="/scripts/lib/modernizr.js"></script>  
+  <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic|Roboto+Condensed:100,300,700|Sanchez' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/base.css?v=1" type="text/css" />    
+</head>
+
+
+<body>
+
+<section class="primary-nav">
+<div class="wrapper">
+  <nav>
+    <ul>
+      <li ><a href="/">Home</a></li>
+      <li ><a href="/writing.html">Writing</a></li>
+      <li ><a href="/resume.html">Résumé</a></li>
+    </ul>
+  </nav>
+</div>
+</section>
+
+
+<header class="site-header homepage">
+
+  <div class="wrapper">
+    <h1 class="site-title"><a href="/">Open Heart Nerdery</a></h1> 
+  </div>
+
+</header>
+
+<article class="post wrapper page-content">
+	<header class="page-header">
+		<h1>Web Components</h1>
+		<h2>Structure comes to widget development on the web.</h2>
+    <span class="meta">27 Apr 2014</span>
+	</header>
+
+	<p>When it comes to making resuable, interactive elements in HTML, we’ve had quite the evolution - from pinching scripts from <a href="http://www.dhtmlgoodies.com/">DHTML Goodies</a> through to jQuery plugins and jQuery UI. Whilst these approaches and always provided the goods, if you’ve been bitten by the semantic bug, you’ve probably felt something was missing.</p>
+
+<h4 id="what_once_was_jquery_ui">What once was… jQuery UI</h4>
+
+<p>jQuery UI is awesome and no doubt is responsible for improving the productivity of developers worldwide, but if you’ve been digging around in it’s source code you’ll know that it’s no fun trying to follow all that DOM manipulation, <em>appending</em> this, <em>prepending</em> that, it soon becomes unmanageable.</p>
+
+<h4 id="towards_the_future">Towards the future</h4>
+
+<p><a href="http://www.w3.org/TR/components-intro/">Web Components</a> provide an all-encompassing, structured approach to building custom elements, or <em>widgets</em> if you prefer.</p>
+
+<p>Web Components bring harmony to widget development by unifying a series of areas of development that have largely been developing and progressing in isolation. If you’ve been developing your own interactive UI components you definitely have come across at least two (if not all) of the high level facets of web components:</p>
+
+<ul>
+<li>
+<p>Templates - Think <a href="http://mustache.github.io">mustache</a>. The browser understands what you are defining is dormant HTML that is waiting to be hydrated.</p>
+</li>
+
+<li>
+<p>Custom Elements - Define your own tags with their own HTML representation (via templating) and API (via JavaScript)</p>
+</li>
+
+<li>
+<p>Shadow DOM - At last, encapsulation of DOM. Stop worrying about not using ID - each web component is self-contained.</p>
+</li>
+
+<li>
+<p>Imports - Finally a concerted effort to define a common approach on how to bundle all the above into a single package.</p>
+</li>
+</ul>
+
+<h4 id="bridging_the_gap">Bridging the gap</h4>
+
+<p>Unfortunately the magnitude of change caused by Web Components means leaning on a ton of new, native browser features. Like all progressive web development, we can’t reliably have our code work correctly across browsers.</p>
+
+<h4 id="more_reading">More reading</h4>
+
+<p><a href="http://jonrimmer.github.io/are-we-componentized-yet/">Keep on eye on progress</a>.</p>
+
+</article>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19427421-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+
+</body>
+
+
+</html>
+
+

@@ -1,0 +1,204 @@
+/* line 7, ../../sass/pages/resume.scss */
+.resume .coreSkills li {
+  display: inline-block;
+  width: 33.3%;
+  vertical-align: top;
+  margin-bottom: 1rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  box-sizing: border-box;
+}
+/* line 16, ../../sass/pages/resume.scss */
+.resume .coreSkills li:nth-child(3n + 1) {
+  padding-left: 0;
+}
+/* line 17, ../../sass/pages/resume.scss */
+.resume .coreSkills li:nth-child(3n + 3) {
+  padding-right: 0;
+}
+/* line 20, ../../sass/pages/resume.scss */
+.resume .coreSkills-title {
+  font-size: 1.2rem;
+}
+/* line 24, ../../sass/pages/resume.scss */
+.resume .coreSkills-detail {
+  font-size: 0.9rem;
+  line-height: 0.5rem;
+}
+/* line 29, ../../sass/pages/resume.scss */
+.resume .experience-title,
+.resume .education-title {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding: 0.4em 0;
+  border-bottom: solid #CCC 1px;
+  font-size: 1.66667em;
+  line-height: 1.6em;
+}
+/* line 41, ../../sass/pages/resume.scss */
+.resume ol li {
+  clear: both;
+}
+/* line 45, ../../sass/pages/resume.scss */
+.resume ol .vevent {
+  float: left;
+  width: 100%;
+  margin-bottom: 3em;
+}
+@media (min-width: 859px) {
+  /* line 52, ../../sass/pages/resume.scss */
+  .resume #employment .employment-history header,
+  .resume #education ol li .category {
+    float: left;
+    width: 25%;
+    text-align: right;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 52, ../../sass/pages/resume.scss */
+  .resume #employment .employment-history header,
+  .resume #education ol li .category {
+    float: left;
+    width: 25%;
+    text-align: right;
+  }
+}
+/* line 69, ../../sass/pages/resume.scss */
+.resume .employment-history-header {
+  text-align: right;
+  margin-bottom: 0.4em;
+}
+@media (max-width: 858px) {
+  /* line 69, ../../sass/pages/resume.scss */
+  .resume .employment-history-header {
+    text-align: left;
+  }
+}
+@media (max-width: 577px) {
+  /* line 69, ../../sass/pages/resume.scss */
+  .resume .employment-history-header {
+    text-align: center;
+  }
+}
+/* line 83, ../../sass/pages/resume.scss */
+.resume header h3 .title,
+.resume #education .category .title {
+  float: none;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+/* line 92, ../../sass/pages/resume.scss */
+.resume #employment ol.employment-history header h3 .org,
+.resume #education ol header h3 .org {
+  display: block;
+  font-size: 1.2em;
+  float: none;
+  display: block;
+  clear: both;
+  margin-top: 0.3em;
+}
+/* line 102, ../../sass/pages/resume.scss */
+.resume #education .title span {
+  text-transform: lowercase;
+}
+/* line 106, ../../sass/pages/resume.scss */
+.resume section#employment ol.employment-history header .duration {
+  margin-bottom: 0.6em;
+}
+@media (max-width: 577px) {
+  /* line 106, ../../sass/pages/resume.scss */
+  .resume section#employment ol.employment-history header .duration {
+    text-align: center;
+  }
+}
+/* line 114, ../../sass/pages/resume.scss */
+.resume #employment ol.employment-history header .overview {
+  font-size: 0.77778em;
+  line-height: 1.71429em;
+  margin-top: 1.71429em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.71429em;
+  width: 100%;
+}
+@media (max-width: 577px) {
+  /* line 114, ../../sass/pages/resume.scss */
+  .resume #employment ol.employment-history header .overview {
+    text-align: center;
+  }
+}
+/* line 124, ../../sass/pages/resume.scss */
+.resume #employment .employment-history header .overview p {
+  color: #666;
+}
+@media (min-width: 859px) {
+  /* line 128, ../../sass/pages/resume.scss */
+  .resume #employment .employment-history .skills,
+  .resume #education .summary {
+    float: right;
+    width: 70%;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 128, ../../sass/pages/resume.scss */
+  .resume #employment .employment-history .skills,
+  .resume #education .summary {
+    float: right;
+    width: 70%;
+  }
+}
+/* line 146, ../../sass/pages/resume.scss */
+.resume #employment ol.employment-history section.skills h4 {
+  font-weight: normal;
+  margin-bottom: 0.1em;
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  line-height: 1.3em;
+}
+/* line 155, ../../sass/pages/resume.scss */
+.resume section#employment ol.employment-history section.skills h4:first-child {
+  margin-top: 0;
+}
+/* line 159, ../../sass/pages/resume.scss */
+.resume section#employment ol.employment-history section.skills ul {
+  padding: 0;
+}
+/* line 163, ../../sass/pages/resume.scss */
+.resume section#employment ol.employment-history section.skills ul li {
+  margin-bottom: 0.4em;
+}
+/* line 167, ../../sass/pages/resume.scss */
+.resume section#employment ol.employment-history section.skills ul li ul {
+  border-left-width: 0.05556em;
+  border-left-style: solid;
+  padding-left: 1.27778em;
+  border-left-color: #CCC;
+  margin: 1em 1em;
+  font-style: italic;
+}
+/* line 177, ../../sass/pages/resume.scss */
+.resume #employment,
+.resume #education {
+  clear: both;
+}
+/* line 182, ../../sass/pages/resume.scss */
+.resume #education .adr {
+  margin: 0.3em 0;
+}
+
+/* line 188, ../../sass/pages/resume.scss */
+address {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 193, ../../sass/pages/resume.scss */
+address span {
+  display: block;
+  margin-bottom: 0.3em;
+}
